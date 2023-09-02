@@ -1,38 +1,47 @@
-# create-svelte
+<p align="center">
+  <a href="https://fl0.com/" target="blank">
+    <img src="https://user-images.githubusercontent.com/88681427/217122968-e6132cad-1944-4ebe-9ec1-105af6a18c4f.png">
+  </a>
+</p>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+<h2 align="center">Node.js Quickstart</h2>
+<p align="center">Backend engineering, supercharged.</p>
 
-## Creating a project
+## Overview
 
-If you're seeing this, you've probably already done this step. Congrats!
+Use this repository to get up and running on FL0 with the following stack:
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+<table>
+<tr>
+  <th>Language</th>
+  <td>Javascript</td>
+</tr>
+<tr>
+  <th>Router</th>
+  <td>Express</td>
+</tr>
+</table>
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Getting Started
 
-## Developing
+Clone this repo and run the following commands from the project root:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+1. `npm install`
+2. `npm start`
+3. Visit http://localhost:3000 to see your app running
 
-```bash
-npm run dev
+## Deploying to FL0
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+Checkout our [Getting Started Guide](https://docs.fl0.com) in the FL0 documentation!
 
-## Building
+## Questions
 
-To create a production version of your app:
+If you have any questions about FL0 or this template codebase please head on over to our [Discord channel](https://discord.gg/AmmVTt9Jrw).
 
-```bash
-npm run build
-```
+## Issues
 
-You can preview the production build with `npm run preview`.
+Any issues or feature requests can be raised on the [Issues page](https://github.com/fl0zone/template-nodejs/issues) of this repo.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## License
+
+This template repository is [MIT licensed](LICENSE).
