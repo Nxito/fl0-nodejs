@@ -1,0 +1,107 @@
+
+ 
+/* color para los botones de la parte derecha(Temas claros: #4d4d4d; Temas oscuros: #7c7c7c) */
+#red-ui-header .button{
+    border-left: none ;
+    border-right: none ;
+    color: #4d4d4d ;
+}
+​
+/* Tamaño y color del nombre del servicio */
+#red-ui-header span.red-ui-header-logo span {
+    color: #4d4d4d ;
+}
+/*
+.red-ui-editor .ace_scroller, .red-ui-editor-dialog .ace_scroller {
+    background: #f0f0f0;
+    color: #0c0c0c;
+}
+
+.red-ui-tray {
+
+    background: #c2c2c2;
+    border-left: 1px solid #f0f0f0;
+    border-bottom: 1px solid #565656;
+}/*
+/*.red-ui-editor .ace_gutter-active-line, .red-ui-editor-dialog .ace_gutter-active-line {
+    background:#f0f0f0;
+}*/
+#red-ui-header .button {
+    border-left: none ;
+    border-right: none ;
+}
+#red-ui-header .button :hover {
+    color:coral;
+}
+.red-ui-tab-link-buttons {
+    background: #4d4d4d;
+}
+/*
+.red-ui-editor .red-ui-tray .dialog-form, .red-ui-editor .red-ui-tray #dialog-form, .red-ui-editor .red-ui-tray #node-config-dialog-edit-form {
+    background: lightgray;
+}*/
+.red-ui-tray-content{
+    background: lightgray;
+}
+#red-ui-palette-shade, #red-ui-editor-shade, #red-ui-header-shade, #red-ui-sidebar-shade {
+
+    background: rgb(0 0 0 / 50%);
+}
+.red-ui-editor .ace_gutter, .red-ui-editor-dialog .ace_gutter {
+    background: #c1c1c1;
+}
+/*function editor*/
+.red-ui-editor .ace_scroller, .red-ui-editor-dialog .ace_scroller {
+    background: #232323;
+    color: #fcfcfc;
+}
+/*linea activa*/
+.red-ui-editor .ace_marker-layer .ace_active-line, .red-ui-editor-dialog .ace_marker-layer .ace_active-line {
+    background: #00a1a938;
+}
+
+.red-ui-editor .ace_gutter-active-line, .red-ui-editor-dialog .ace_gutter-active-line {
+    background: #00a1a938;
+}
+.red-ui-editor .ace_marker-layer .ace_selection, .red-ui-editor-dialog .ace_marker-layer .ace_selection {
+    background: #00a1a938;
+    border-radius: 2px;
+}
+
+/*barra margen de escritura*/
+.ace-tomorrow .ace_print-margin {
+    background: #74747400;
+}
+/*
+.red-ui-debug-content {
+    position: absolute;
+    top: 43px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow-y: scroll;
+    background: black;}
+.red-ui-debug-msg {
+    position: relative;
+    border-bottom: 1px solid #3f2525;
+    border-left: 8px solid #eee;
+    border-right: 8px solid #eee;
+    padding: 2px;
+}
+.red-ui-debug-msg-meta {
+    background: #000;
+    font-size: 11px;
+    color: #666;
+}
+.red-ui-debug-msg-element {
+    color: #333;
+    line-height: 1.3em;
+}
+*/
+.red-ui-flow-node-status-label {
+
+    fill: #d0f3ff;}
+    .red-ui-editor .ace_marker-layer .ace_selection, .red-ui-editor-dialog .ace_marker-layer .ace_selection {
+        background: #455ac17a;
+        border-radius: 2px;
+    }
