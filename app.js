@@ -16,14 +16,15 @@ var settings = {
   httpAdminRoot: "/red/ad",
   httpNodeRoot: "/api",
   userDir: "./",
+  flowFile: 'flows.json',
   serialReconnectTime: 15000,
   adminAuth: {
     type: "credentials",
     users: [
       {
-        username: "admin",
+        username: "nxito",
         password:
-          "$2b$10$M8SHpSeTUGQ/FhnfRKNKwuX9l.tyId1W69g5syK1ckkG.OcM1eSK6",
+          "$2b$15$NteVt2eUSJmlhJZeA7QqR.ubxaavRWxL3kvJc6x2HA3TdltyP.T2C",
         permissions: "*",
       },
     ],
@@ -61,6 +62,7 @@ app.use(settings.httpAdminRoot, RED.httpAdmin);
 
 // Serve the http nodes UI from /api
 app.use(settings.httpNodeRoot, RED.httpNode);
+
 console.log(`http://localhost:${port}/${RED.httpAdmin}`);
 
 server.listen(port);
