@@ -16,7 +16,7 @@ var settings = {
   httpAdminRoot: "/red/ad",
   httpNodeRoot: "/api",
   userDir: "./",
-  flowFile: 'flows.json',
+  flowFile: './flows.json',
   serialReconnectTime: 15000,
   adminAuth: {
     type: "credentials",
