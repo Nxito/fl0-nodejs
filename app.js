@@ -24,7 +24,7 @@ var settings = {
       {
         username: "nxito",
         password:
-          "$2b$15$NteVt2eUSJmlhJZeA7QqR.ubxaavRWxL3kvJc6x2HA3TdltyP.T2C",
+          "$2a$12$I3VmuPnUbN/2bw0cwpgVh.1Erx.9VdybScSo5aIlytejg.bJEC1EO",
         permissions: "*",
       },
     ],
